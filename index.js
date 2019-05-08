@@ -1,24 +1,53 @@
-var customerName = 'bob';
-const leastFavoriteCustomer = "Erin";
+// var customerName = 'bob';
+// const leastFavoriteCustomer = "Erin";
+//
+// function upperCaseCustomerName(){
+//    return customerName = customerName.toUppercase();
+// }
+//
+// function setBestCustomer(){
+//    bestCustomer = "not bob";
+// }
+//
+// function overWriteBestCustomer(newFavorite){
+//    bestCustomer = newFavorite;
+// }
+//
+// function changeLeastFavoriteCustomer(){
+//   leastFavoriteCustomer = "bob";
+// }
+//
+// function attemptTwofavoriteCustomers(){
+//   let favoriteCustomer = "bob"
+//
+//   let favoriteCustomer = "not bob"
+// }
 
-function upperCaseCustomerName(){
-   return customerName = customerName.toUppercase();
-}
+var customerName = 'bob'
+const leastFavoriteCustomer = 'sour fred'
 
-function setBestCustomer(){
-   bestCustomer = "not bob";
-}
-
-function overWriteBestCustomer(newFavorite){
-   bestCustomer = newFavorite;
+function upperCaseCustomerName() {
+  return customerName = customerName.toUpperCase()
 }
 
 function changeLeastFavoriteCustomer(){
-  leastFavoriteCustomer = "bob";
+  leastFavoriteCustomer = 'sour fred'
 }
 
-function attemptTwofavoriteCustomers(){
-  let favoriteCustomer = "bob"
 
-  let favoriteCustomer = "not bob"
+function setBestCustomer(){
+  bestCustomer = 'not bob'
+}
+
+function overWriteBestCustomer(newFavorite){
+  bestCustomer = newFavorite
+}
+
+function congratulateCustomer(){
+  return `congrats ${favoriteCustomer}`
+}
+
+function attemptTwoFavoriteCustomers(){
+    let favoriteCustomer = 'bar'
+    let favoriteCustomer = 'not bar'
 }
