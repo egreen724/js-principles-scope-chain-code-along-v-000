@@ -9,3 +9,7 @@ function upperCaseCustomerName() {
 function setBestCustomer() {
   const bestCustomer = "not bob";
 }
+
+function overWriteBestCustomer() {
+  const bestCustomer = "Bob";
+}
