@@ -12,10 +12,10 @@ function setBestCustomer(){
 function overWriteBestCustomer(newFavorite){
    bestCustomer = newFavorite;
 }
-//
-// function changeLeastFavoriteCustomer(){
-//   leastFavoriteCustomer = "bob";
-// }
+
+function changeLeastFavoriteCustomer(){
+  leastFavoriteCustomer = "bob";
+}
 //
 // function attemptTwofavoriteCustomers(){
 //   let favoriteCustomer = "bob"
