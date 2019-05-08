@@ -1,4 +1,5 @@
 var customerName = 'bob';
+const leastFavoriteCustomer = "Erin";
 
 function upperCaseCustomerName(){
    return customerName = customerName.toUppercase();
